@@ -19,9 +19,8 @@ If you need **all data**, download it directly from **Fingrid’s website**.
 
 3. **Fetch more data in a single request**
 Here the pageSize is kinda funky. The value 500 is enough to get the months data, but its overkill. Good pageSize
-depends on the measurement time interval. Adjust based on measurement interval. For example 15min intervals on a solid data would be 96(24*4) for one day data.
+depends on the measurement time interval. Adjust based on measurement interval. For example 15min intervals on a solid data would be 96(24*4) for one day data. Overkill value for pageSize works, but it is not optimal.
 
-Overkill value for pageSize works, but it is not optimal.
     ```
     python3 filename.py 124 2020-10-10 2020-11-10 --pageSize 500 --verbose
     ```
