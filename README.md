@@ -25,7 +25,7 @@ depends on the measurement time interval. Adjust based on measurement interval. 
     python3 filename.py 124 2020-10-10 2020-11-10 --pageSize 500 --verbose
     ```
 
-4. **Save data to a CSV file**
+4. **Save data to a CSV file. In this example it would be fingriddataYYYY-MM-DD.csv, please notice that the datetime in filename is the day the file is created**
     ```
     python3 filename.py 124 2020-10-10 2020-11-10 --format csv --toFile --pageSize 96
     ```
