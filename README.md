@@ -1,11 +1,18 @@
-# Fingrid Data Fetcher
+# Fingrid open data
+
+Hi! This repo contains files used to get and review some data from fingrid open data service.
+Main files to see:
+
+* exercise3.py (app to fetch data using cmd and arguments)
+* efc_demo.ipynb (quick review of data related to exercise2)
+* test_exercise3.ipynb (just to confirm that python app returns usable csv file)
+
+## Fingrid Data Fetcher Usage (exercise3.py)
 
 This Python script fetches time series data from Fingrid's open data API.
 
 This program is **not designed** for downloading entire datasets.  
 If you need **all data**, download it directly from **Fingrid’s website**.
-
-## Usage
 
 1. **Fetch a latest single page and display data in the terminal**
     ```
